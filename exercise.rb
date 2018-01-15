@@ -23,7 +23,7 @@ ballots.each {|ballot|
     elsif key == 2
       contestants_with_score[value] += 2
     elsif key == 3
-      contestants_with_score[value] += 3
+      contestants_with_score[value] += 1
     end
   }
 }
